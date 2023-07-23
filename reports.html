@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Hrllo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Expense Tracker</h1>
+    </header>
+    <main>
+
+
+        <h2>Financial Insights and Reports</h2>
+    
+    <h3>Transactions</h3>
+    <div id="transactionInsights"></div>
+    
+    <h3>Budgets</h3>
+    <div id="budgetInsights"></div>
+    
+    <h3>Savings Goals</h3>
+    <div id="savingsGoalInsights"></div>
+    
+    <script>
+        // JavaScript functions to retrieve and display financial insights and recommendations
+        window.addEventListener("DOMContentLoaded", function() {
+            // Retrieve transaction insights
+            retrieveTransactionInsights();
+            
+            // Retrieve budget insights
+            retrieveBudgetInsights();
+            
+            // Retrieve savings goal insights
+            retrieveSavingsGoalInsights();
+        });
+        
+        function retrieveTransactionInsights() {
+            // Use AJAX or fetch API to retrieve transaction data from the server-side PHP script
+            // Process the data and generate insights
+            
+            // Example: Display transaction insights
+            var transactionInsightsElement = document.getElementById("transactionInsights");
+            transactionInsightsElement.innerHTML = "You have made 50 transactions in the last month.";
+        }
+        
+        function retrieveBudgetInsights() {
+            // Use AJAX or fetch API to retrieve budget data from the server-side PHP script
+            // Process the data and generate insights
+            
+            // Example: Display budget insights
+            var budgetInsightsElement = document.getElementById("budgetInsights");
+            budgetInsightsElement.innerHTML = "You have exceeded your budget limit for the 'Food' category.";
+        }
+        
+        function retrieveSavingsGoalInsights() {
+            // Use AJAX or fetch API to retrieve savings goal data from the server-side PHP script
+            // Process the data and generate insights
+            
+            // Example: Display savings goal insights
+            var savingsGoalInsightsElement = document.getElementById("savingsGoalInsights");
+            savingsGoalInsightsElement.innerHTML = "You are 75% closer to reaching your savings goal.";
+        }
+    </script>
+
+        
+    </main>
+    <footer>
+        <p>&copy; 2023 Personal Finance Tracker. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+    
+
+
+
+
+
+
+
