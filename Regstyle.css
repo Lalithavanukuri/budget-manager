@@ -1,0 +1,60 @@
+/*Stylesheet for Registration.html*/
+
+#subTable tr 
+{
+    height: 40 px;
+    padding: 5px;
+}
+
+#subTable 
+{
+    margin: 32px;
+}
+
+select 
+{
+    font-family: 'Cambria';
+    font-size: 15px;
+    border: 2px solid #555;
+    height: 30px;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+}
+
+input[type=text] 
+{
+    height: 30px;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid #555;
+}
+
+input[type=submit] 
+{
+    margin: 4px 2px;
+    border-radius: 5px;
+    background-color: #191970;
+    color: White;
+    padding: 14px 28px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #555;
+    cursor: pointer;
+}
+
+input[type=submit]:hover 
+{
+    background-color: rgb(200, 67, 90);
+    cursor: pointer;
+}
+
+#form_cell 
+{
+    background-image: linear-gradient(to bottom right, Gainsboro, lightSalmon);
+    padding: 20px;
+    border-radius: 5px;
+}

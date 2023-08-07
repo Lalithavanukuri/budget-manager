@@ -1,0 +1,99 @@
+<html>
+
+<head>
+    <title>Registration page</title>
+</head>
+<link rel="stylesheet" href="RegStyle.css">
+<script src="RegScript.js"></script>
+
+<body>
+    <table width=100%>
+        <h1 align="center">
+            <font color="blue">REGISTRATION FORM </font>
+
+
+        </h1>
+        <tr height="30px">
+            <td></td>
+            <td width="37%" rowspan="4" id="form_cell">
+                <form name="RegistrationForm" method="POST" action="register.php">
+                    <table align="center" id="subTable">
+
+                        <tr>
+                            <td>
+                                <font color="black"><b> Name</b></font>
+                            </td>
+                            <td> <input type="text" name="name" required> </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <font color="black"><b> Phone Number </b></font>
+                            </td>
+                            <td> <input type="text" name="mobile" id="mobile" maxlength="10" required> </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <font color="black"><b> Gender </b></font>
+                            </td>
+                            <td>
+                                <input type="text" name="gender" id="gender" maxlength="3" required> 
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <font color="black"><b> age </b></font>
+                            </td>
+                            <input type="text" name="age" id="age" maxlength="7" required> 
+                        </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <font color="black"><b> UserName</b></font>
+                            </td>
+                            <td> <input type="text" name="username" required> </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <font color="black"><b> Email</b></font>
+                            </td>
+                            <td> <input type="text" name="email" required> </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <font color="black"><b> Create Password</b></font>
+                            </td>
+                            <td> <input type="password" name="password" required> </td>
+                        </tr>
+                        
+                        
+
+
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="submit" name="Register" value="Register" onclick="Validate()">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+            <td></td>
+        </tr>
+       
+
+    </table>
+    <marquee>
+        <p><i>
+                <h1>
+                    <font color="purple">Do register to keep track of your monthly finances</font>
+                </h1>
+            </i></p>
+    </marquee>
+</body>
+
+</html>
