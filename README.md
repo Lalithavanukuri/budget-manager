@@ -1,6 +1,8 @@
 # budget-manager
 
 The Finance Budget Tracker is an intuitive and powerful web application developed to empower individuals in effectively managing their personal finances. This user-friendly tool is built using a seamless integration of HTML, CSS, and JavaScript for frontend functionalities, and PHP for backend operations, ensuring a smooth and responsive experience for users.
+The screenshots are provided in screenshots.pdf
+
 
 Key Features:
 
